@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ofertas da Hora</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+    header { background-color: #333; color: white; padding: 20px; text-align: center; }
+    h1 { margin: 0; }
+    .produtos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+    .produto { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .produto img { width: 100%; height: auto; border-radius: 8px; }
+    .produto h3 { margin: 10px 0 5px; }
+    .produto p { font-size: 14px; color: #555; }
+    .produto a { display: inline-block; margin-top: 10px; background: #28a745; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; }
+    .produto a:hover { background: #218838; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ofertas da Hora</h1>
+    <p>Produtos incríveis com os melhores preços!</p>
+  </header>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/71E5zB1qbIL._AC_SL1500_.jpg" alt="Echo Dot">
+      <h3>Echo Dot (4ª Geração)</h3>
+      <p>Smart speaker com Alexa - controle sua casa com a voz.</p>
+      <a href="https://www.amazon.com.br/dp/B085M66LH1?tag=SEULINKAFILIADO" target="_blank">Ver Oferta</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/61gJcGmWwkL._AC_SL1000_.jpg" alt="Fone Bluetooth JBL">
+      <h3>Fone Bluetooth JBL</h3>
+      <p>Qualidade de som JBL com bateria duradoura.</p>
+      <a href="https://www.amazon.com.br/dp/B086KKT3RX?tag=SEULINKAFILIADO" target="_blank">Ver Oferta</a>
+    </div>
+  </section>
+</body>
+</html>
